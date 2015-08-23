@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 cacheSolve <- function(x, ...) {
-  ## @x: output of makeCacheMatrix()
+  ## x: output of makeCacheMatrix()
   ## return: inverse of the original matrix input to makeCacheMatrix()
   
   inv = x$getinv()
@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
   # get it from the cache and skips the computation with message
   
   if (!is.null(inv)){
-    message("getting cached data")
+    message("Getting cached data")
     return(inv)
   }
   
@@ -89,4 +89,4 @@ speedtest(matsq)
 ##getting cached data
 ##Time difference of 0.0009739399 secs
 
-#This is a 99,67% decrease, and this speed test function represents the power of caching.
+#The time difference for second function is a 99,67% decrease, and this speed test function represents the power of caching.
