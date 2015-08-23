@@ -89,4 +89,4 @@ speedtest(matsq)
 ##getting cached data
 ##Time difference of 0.0009739399 secs
 
-#The time difference for second function is a 99,67% decrease, and this speed test function represents the power of caching.
+#The time difference for second run function is a 99,67% decrease, and this speed test function represents the power of caching.
