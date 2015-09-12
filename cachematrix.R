@@ -1,5 +1,5 @@
 ## I wrote a function called "speedtest()", which takes in any invertible matrix, 
-## calculates its inverse twice using the above functions, and prints out the times it takes for both runs. 
+## calculates its inverse twice using the below functions, and prints out the times it takes for both runs. 
 ## The first run takes longer than the second run because it actually calculates 
 ## the inverse, while the second run only does a look-up from the cache.
 
